@@ -1,4 +1,3 @@
-// script.js dosyasının içi:
 
 const yaziAlani = document.getElementById('degisen-yazi');
 const kelimeler = ["C Programcısıyım", "Futbol Meraklısıyım", "Bilgisayar Mühendisiyim", "Web Geliştiriciyim"];
@@ -35,5 +34,6 @@ function yazveSil() {
 
     setTimeout(yazveSil, hiz);
 }
+
 
 document.addEventListener('DOMContentLoaded', yazveSil);
