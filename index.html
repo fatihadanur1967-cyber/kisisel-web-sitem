@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web sitem</title>
+    <style>
+        body{
+            background-image: url(dark\ wallpaper.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+        }
+        nav{
+            background-color:rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            color: white;
+            font-size: 30px;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+            cursor: pointer;
+            font-family: serif;
+            text-transform: uppercase;
+        }
+
+
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        .butonlar{
+            color: white;
+            background-color: transparent;
+            border-radius: 30px;
+            border: 1px solid white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 35px;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .butonlar:hover{
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            transform: translateY(-3px);
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+            transition: 0.3s;
+        }
+        .ana-yer{
+            text-align: center;
+            margin-top: 135px;
+            color: white;
+        }
+        .ana-yer h1{
+            font-size: 60px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px black;
+        }
+        .ana-yer p{
+            font-size: 20px;
+            font-family: serif;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .footer{
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            font-size: 12px;
+            color: #666;
+            padding-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            margin-top: 240px;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+<nav><div class="logo">fatih adanur</div>
+    <ul>
+        <li><a class="butonlar" href="./hakkimda.html">hakkımda</a></li>
+        <li><a class="butonlar" href="./iletişim.html">iletişim</a></li>
+    </ul>
+</nav>
+
+    <div class="ana-yer">
+        <h1>web siteme hoşgeldiniz</h1>
+        <p>Benimle alakalı tüm bilgileri burada bulabilirsiniz</p>
+        <p>Ben <span id="degisen-yazi" style="color: white; font-weight: bold;"></span></p>
+</div>
+<script src="main1.js"></script>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; 2025 Fatih Adanur. Tüm Hakları Saklıdır.</p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
